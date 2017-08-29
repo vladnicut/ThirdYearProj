@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+                integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+                crossorigin="anonymous">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css" />
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+                crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="css/styles.css" />
+        
+        <title>Data visualisation tool</title>
+
+        <meta charset='utf-8' />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+
+    <body>
+        <form id="uploadform" action='/' method="POST" enctype="multipart/form-data" >
+                <input onchange="this.form.submit()" type="file" name="groupfile"
+                       id="groupfileinput" 
+                       style="position: absolute; top: -100px;" />
+        </form>
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Data visualisation tool</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#" onclick="$('#groupfileinput').trigger('click');">Upload</a></li>
+                    <li><a id="save_button" href="#">Save</a></li>     
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Visualisations <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Basic</a></li>
+                        <li><a href="#">Event drops</a></li>
+                        <li><a href="#" onclick="document.getElementById('markov_form').submit();">Edge bundling</a></li>
+                        <form id="markov_form" action="/edgebundling" method="post">
+                            <input type="hidden" value="" name="sequence" id="event_sequence" />
+                        </form>
+                    </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    {{^logged_in}}                                      
+                        <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
+                    {{/logged_in}}
+
+                    {{#logged_in}}
+                        <li class="active"><a href="/users/myfiles">My files</a></li>                
+                        <li><a href="/logout">Logout</a></li>
+                    {{/logged_in}}
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" style="text-align: center">
+                    <h2>My files - <b>{{user.username}}</b></h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="list-group">
+                        {{#files}}
+                        <a href="/?folder={{user._id}}&filename={{filename}}" class="list-group-item">
+                            {{filename}}
+                        </a>
+                        {{/files}}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</html>

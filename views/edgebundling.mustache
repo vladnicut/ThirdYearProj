@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+                integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+                crossorigin="anonymous">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css" />
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+                crossorigin="anonymous"></script>
+
+        <!-- transform svg to canvas-->
+        <script type="text/javascript" src="http://canvg.github.io/canvg/rgbcolor.js"></script> 
+        <script type="text/javascript" src="http://canvg.github.io/canvg/StackBlur.js"></script>
+        <script type="text/javascript" src="http://canvg.github.io/canvg/canvg.js"></script>
+
+        <link rel="stylesheet" href="css/styles.css" />
+        <style>
+
+            .node {
+            font: 300 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+            fill: #bbb;
+            }
+
+            .node:hover {
+            fill: #000;
+            }
+
+            .link {
+            stroke: steelblue;
+            stroke-opacity: .4;
+            fill: none;
+            pointer-events: none;
+            }
+
+            .node:hover,
+            .node--source,
+            .node--target {
+            font-weight: 700;
+            }
+
+            .node--source {
+            fill: #2ca02c;
+            }
+
+            .node--target {
+            fill: #d62728;
+            }
+
+            .link--source,
+            .link--target {
+            stroke-opacity: 1;
+            stroke-width: 2px;
+            }
+
+            .link--source {
+            stroke: #d62728;
+            }
+
+            .link--target {
+            stroke: #2ca02c;
+            }
+
+        </style>
+        
+        <title>Data visualisation tool</title>
+
+        <meta charset='utf-8' />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <script src="//d3js.org/d3.v3.js"></script>
+        <script src="/js/main.js"></script>
+
+    </head>
+
+    <body>
+        <form action="/" id="uploadform" method="POST" enctype="multipart/form-data" >
+                <input onchange="this.form.submit()" type="file" name="groupfile"
+                       id="groupfileinput" 
+                       style="position: absolute; top: -100px;" />
+        </form>
+
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+                <div class="loginmodal-container">
+                    <h1>Login</h1><br>
+                    <form action='users/authenticate' method='post'>
+                        <input type="text" name="username" placeholder="Username">
+                        <input type="password" name="password" placeholder="Password">
+                        <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+                    </form>
+                    
+                    <div class="login-help">
+                        <a href="#" data-toggle="modal" data-target="#register-modal">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+                <div class="loginmodal-container">
+                    <h1>Register</h1><br>
+                    <form action='users/register' method='post'>
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="text" name="email" placeholder="Email">
+                        <input type="text" name="username" placeholder="Username">
+                        <input type="password" name="password" placeholder="Password">
+                        <input type="submit" name="login" class="login loginmodal-submit" value="Register">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div style="display: none;">
+            <canvas id="canvas" width="1100px" height="720px"></canvas> 
+        </div>
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Data visualisation tool</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#" onclick="$('#groupfileinput').trigger('click');">Upload</a></li>
+                    <li><a id="save_button" href="#">Save</a></li>     
+                    <!--<li><a href="#">Upload</a></li>-->
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Visualisations <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/" onclick="firstView()">Basic</a></li>
+                        <li><a href="/" onclick="secondView()">Event-drops</a></li>
+                        <li class="active"><a href="#" onclick="document.getElementById('markov_form').submit();">Edge bundling</a></li>
+                        <form id="markov_form" action="/edgebundling" method="post">
+                            <input type="hidden" value="" name="sequence" id="event_sequence" />
+                        </form>
+                    </ul>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    {{^logged_in}}                                      
+                        <li><a href="#" data-toggle="modal" data-target="#register-modal">Register</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
+                    {{/logged_in}}
+
+                    {{#logged_in}}
+                        <li><a href="/users/myfiles">My files</a></li>                
+                        <li><a href="/logout">Logout</a></li>
+                    {{/logged_in}}
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" style="text-align: center">
+                    <h4>Filename: <b><span id='original_fname_span'></span></b></h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="visualisation3" class="panel panel-info">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Edge bundling</h3>
+                        </div>
+                        <div class="panel-body" style="text-align: center;">
+                            <div id="svg_chart" class="chart" style="display: block; margin: auto;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="/js/edgebundling.js"></script>
+
+        </div>
+</html>

@@ -1,0 +1,596 @@
+timestamp,type,event
+1389978135023,log,LoadOntology
+1389978140702,eye,Class hierarchy
+1389978147643,log,M_hierarchy
+1389978167570,eye,Class hierarchy
+1389978168752,log,HExpanded
+1389978170552,log,M_entity_selected
+1389978170704,eye,Description
+1389978175154,log,EntitySelected
+1389978175237,eye,Description
+1389978178570,eye,Property hierarchy
+1389978178970,eye,Description
+1389978184070,eye,Class hierarchy
+1389978193087,eye,Description
+1389978200060,eye,Property hierarchy
+1389978209131,log,DescriptionSelected
+1389978308552,log,EntityModified
+1389978312365,eye,Class hierarchy
+1389978327621,log,SaveOntology
+1389978332398,log,EntitySelected
+1389978332836,log,EntitySelected
+1389978337906,log,DescriptionSelected
+1389978352563,log,EntityModified
+1389978357812,log,EntitySelected
+1389978358908,eye,Class hierarchy
+1389978360114,log,DescriptionSelected
+1389978366449,log,EntityModified
+1389978367819,log,EntitySelected
+1389978373369,log,DescriptionSelected
+1389978380509,log,EntityModified
+1389978382008,log,EntitySelected
+1389978383251,eye,Property hierarchy
+1389978384834,log,DescriptionSelected
+1389978390933,log,EntityModified
+1389978391435,eye,Class hierarchy
+1389978395899,log,EntitySelected
+1389978396368,eye,Class hierarchy
+1389978398163,log,M_entity_selected
+1389978399101,eye,Class hierarchy
+1389978403951,log,SaveOntology
+1389978408416,log,DescriptionSelected
+1389978413883,log,EntityModified
+1389978415162,log,EntitySelected
+1389978415674,eye,Property hierarchy
+1389978418141,eye,Class hierarchy
+1389978418953,log,DescriptionSelected
+1389978424702,log,EntityModified
+1389978425581,log,EntitySelected
+1389978427034,log,DescriptionSelected
+1389978436273,log,EntityModified
+1389978437846,log,EntitySelected
+1389978442526,log,DescriptionSelected
+1389978452729,log,EntityModified
+1389978456543,eye,Property hierarchy
+1389978456690,log,EntitySelected
+1389978456759,eye,Property hierarchy
+1389978459226,eye,Class hierarchy
+1389978459977,log,DescriptionSelected
+1389978465364,log,EntityModified
+1389978466505,log,EntitySelected
+1389978468025,log,DescriptionSelected
+1389978476515,log,EntityModified
+1389978480825,log,EntitySelected
+1389978480942,eye,Class hierarchy
+1389978482385,log,DescriptionSelected
+1389978487769,log,EntityModified
+1389978488605,eye,Class hierarchy
+1389978490022,eye,File menu
+1389978490850,log,EntitySelected
+1389978491622,eye,Property hierarchy
+1389978491789,eye,Description
+1389978492617,log,DescriptionSelected
+1389978499291,log,EntityModified
+1389978528138,eye,Class hierarchy
+1389978531609,log,EntitySelected
+1389978533002,eye,Description
+1389978533102,eye,Popup
+1389978540864,eye,Class hierarchy
+1389978541447,eye,Popup
+1389978543530,eye,Class hierarchy
+1389978553298,log,ClassAddition
+1389978558797,eye,Description
+1389978559921,log,DescriptionSelected
+1389978576979,eye,Property hierarchy
+1389978581491,eye,Class hierarchy
+1389978607597,eye,Class hierarchy
+1389978608281,eye,Class hierarchy
+1389978613516,eye,Class hierarchy
+1389978621409,eye,Class hierarchy
+1389978634798,eye,Class hierarchy
+1389978639756,log,M_hierarchy
+1389978640675,eye,Class hierarchy
+1389978640846,log,HExpanded
+1389978640941,eye,Class hierarchy
+1389978642591,eye,Class hierarchy
+1389978643408,eye,Property hierarchy
+1389978645425,eye,Class hierarchy
+1389978646041,eye,File menu
+1389978652805,log,Convert into defined
+1389978655354,eye,Class hierarchy
+1389978657695,log,SaveOntology
+1389978659338,eye,Class hierarchy
+1389978663092,log,ReasonerInvoked
+1389978664254,eye,Class hierarchy
+1389978668438,eye,Description
+1389978671888,eye,Class hierarchy
+1389978679531,log,EntitySelected
+1389978681373,eye,Description
+1389978682323,eye,Property hierarchy
+1389978699904,eye,Class hierarchy
+1389978701625,log,EntitySelected_I
+1389978702231,eye,Property hierarchy
+1389978704948,eye,Class hierarchy
+1389978710436,eye,Popup
+1389978713103,eye,Description
+1389978713419,eye,Popup
+1389978713719,eye,Description
+1389978714253,eye,Popup
+1389978714669,eye,Description
+1389978715119,eye,Class hierarchy
+1389978715652,eye,Description
+1389978716519,eye,Class hierarchy
+1389978718436,eye,Class hierarchy
+1389978722285,log,ClassAddition
+1389978724061,eye,Class hierarchy
+1389978724088,log,DescriptionSelected
+1389978727327,eye,Class hierarchy
+1389978728744,eye,Class hierarchy
+1389978731844,eye,Class hierarchy
+1389978733127,eye,Class hierarchy
+1389978738588,eye,Class hierarchy
+1389978746391,eye,Class hierarchy
+1389978748574,eye,Description
+1389978756296,log,Convert into defined
+1389978762273,log,SaveOntology
+1389978765775,log,ReasonerInvoked
+1389978767807,eye,Class hierarchy
+1389978770944,log,M_hierarchy_I
+1389978771905,eye,Description
+1389978773008,log,M_hierarchy_I
+1389978775080,log,EntitySelected_I
+1389978779889,eye,Property hierarchy
+1389978780759,log,DescriptionSelected
+1389978788653,log,EntityModified
+1389978793614,log,SaveOntology
+1389978795918,log,ReasonerInvoked
+1389978802499,log,M_hierarchy_I
+1389978819699,eye,File menu
+1389978827465,eye,Class hierarchy
+1389978841094,eye,File menu
+1389978843694,eye,Class hierarchy
+1389978857914,log,LoadOntology
+1389978859661,eye,Class hierarchy
+1389978863277,eye,Property hierarchy
+1389978865349,log,M_hierarchy
+1389978870743,log,M_entity_selected
+1389978916271,log,LoadOntology
+1389978924125,log,M_hierarchy
+1389978933751,eye,Property hierarchy
+1389978934751,eye,Class hierarchy
+1389978936488,log,HExpanded
+1389978938192,log,EntitySelected
+1389978943638,log,DescriptionSelected
+1389978985548,log,EntityModified
+1389978987893,log,DescriptionSelected
+1389978995903,log,EntityModified
+1389978996980,eye,Class hierarchy
+1389978997814,eye,Description
+1389979007166,log,DescriptionSelected
+1389979022709,log,EntityModified
+1389979024630,log,EntitySelected
+1389979028277,log,DescriptionSelected
+1389979030467,log,EntityModified
+1389979033025,eye,Class hierarchy
+1389979033688,log,EntitySelected
+1389979034176,eye,Property hierarchy
+1389979035134,log,DescriptionSelected
+1389979038295,log,EntityModified
+1389979041837,log,EntitySelected
+1389979043150,log,DescriptionSelected
+1389979047956,log,EntityModified
+1389979050092,log,EntitySelected
+1389979051144,eye,Property hierarchy
+1389979051327,eye,Description
+1389979051777,eye,File menu
+1389979054580,log,DescriptionSelected
+1389979058876,log,EntityModified
+1389979063285,log,EntitySelected
+1389979064273,eye,Description
+1389979065549,log,DescriptionSelected
+1389979069329,log,EntityModified
+1389979070420,log,EntitySelected
+1389979072711,eye,Class hierarchy
+1389979073164,log,DescriptionSelected
+1389979077578,log,EntityModified
+1389979078573,log,EntitySelected
+1389979079253,eye,Class hierarchy
+1389979081140,log,DescriptionSelected
+1389979083388,log,EntityModified
+1389979086541,eye,Description
+1389979086631,log,EntitySelected
+1389979087791,eye,Class hierarchy
+1389979087804,log,DescriptionSelected
+1389979091675,log,EntityModified
+1389979094212,log,EntitySelected
+1389979095358,eye,Class hierarchy
+1389979095437,log,DescriptionSelected
+1389979098811,log,EntityModified
+1389979102144,log,EntitySelected
+1389979103700,log,DescriptionSelected
+1389979108893,log,EntityModified
+1389979110076,log,EntitySelected
+1389979110771,eye,Description
+1389979113052,log,DescriptionSelected
+1389979115161,log,EntityModified
+1389979118373,log,EntitySelected
+1389979119556,log,DescriptionSelected
+1389979121688,log,EntityModified
+1389979126162,log,SaveOntology
+1389979142761,eye,Class hierarchy
+1389979150424,eye,Popup
+1389979153292,log,EntitySelected
+1389979154108,eye,Popup
+1389979154558,eye,Class hierarchy
+1389979157180,eye,Popup
+1389979157430,eye,Description
+1389979157563,eye,Popup
+1389979158197,eye,Description
+1389979158347,eye,Popup
+1389979164840,eye,Class hierarchy
+1389979171002,log,ClassAddition
+1389979171928,eye,Popup
+1389979174526,log,EntitySelected
+1389979174749,eye,Popup
+1389979181626,eye,Class hierarchy
+1389979185443,eye,Popup
+1389979185768,log,ClassAddition
+1389979186576,eye,Popup
+1389979187190,log,EntitySelected
+1389979187709,eye,Class hierarchy
+1389979188676,eye,Description
+1389979189009,eye,Class hierarchy
+1389979189359,eye,Description
+1389979190476,eye,Class hierarchy
+1389979195713,log,ClassAddition
+1389979198124,log,DescriptionSelected
+1389979205788,eye,Class hierarchy
+1389979213204,eye,Property hierarchy
+1389979218168,eye,Class hierarchy
+1389979219336,log,HExpanded
+1389979219551,eye,Class hierarchy
+1389979223951,eye,Property hierarchy
+1389979227118,eye,Description
+1389979233763,log,Convert into defined
+1389979233924,eye,Description
+1389979234724,eye,Class hierarchy
+1389979236488,log,DescriptionSelected
+1389979239057,eye,Class hierarchy
+1389979241257,eye,Description
+1389979241507,eye,Class hierarchy
+1389979242541,eye,Description
+1389979245980,log,HExpanded
+1389979246591,eye,Description
+1389979247824,eye,Class hierarchy
+1389979254656,log,DescriptionSelected
+1389979254738,log,EntityDeleted
+1389979258520,eye,Class hierarchy
+1389979258720,eye,Property hierarchy
+1389979259573,log,EntitySelected
+1389979260537,eye,Property hierarchy
+1389979261187,log,DescriptionSelected
+1389979266023,log,Convert into defined
+1389979268201,log,EntitySelected
+1389979269515,log,DescriptionSelected
+1389979274749,eye,Description
+1389979276699,eye,Class hierarchy
+1389979282251,log,Convert into defined
+1389979284361,log,EntitySelected
+1389979286147,log,DescriptionSelected
+1389979303437,eye,Property hierarchy
+1389979303937,eye,Property hierarchy
+1389979308587,eye,Property hierarchy
+1389979309404,eye,Class hierarchy
+1389979317053,log,Convert into defined
+1389979322111,log,SaveOntology
+1389979324889,log,ReasonerInvoked
+1389979329954,eye,Class hierarchy
+1389979337037,log,M_entity_selected_I
+1389979343036,log,M_hierarchy_I
+1389979345654,eye,Class hierarchy
+1389979353478,eye,Popup
+1389979355344,eye,Description
+1389979356577,eye,Popup
+1389979356828,eye,Description
+1389979360794,eye,Class hierarchy
+1389979365297,log,ClassAddition
+1389979366712,eye,Class hierarchy
+1389979367644,log,EntitySelected
+1389979368662,eye,Class hierarchy
+1389979374978,eye,Popup
+1389979377843,eye,Class hierarchy
+1389979384444,eye,Class hierarchy
+1389979386465,log,ClassAddition
+1389979388040,eye,Class hierarchy
+1389979389170,log,DescriptionSelected
+1389979389190,eye,Class hierarchy
+1389979390240,eye,Property hierarchy
+1389979391723,eye,Class hierarchy
+1389979395757,eye,Class hierarchy
+1389979417588,eye,Class hierarchy
+1389979420871,eye,Class hierarchy
+1389979424471,eye,Property hierarchy
+1389979425488,eye,Class hierarchy
+1389979433783,log,Convert into defined
+1389979442570,log,SaveOntology
+1389979445014,log,ReasonerInvoked
+1389979448620,log,HExpanded_I
+1389979449955,eye,Property hierarchy
+1389979453523,log,M_hierarchy_I
+1389979453638,eye,Class hierarchy
+1389979454163,log,HExpanded_I
+1389979454838,eye,Class hierarchy
+1389979459924,log,EntitySelected_I
+1389979460688,eye,Class hierarchy
+1389979460740,log,HExpanded_I
+1389979461121,eye,Class hierarchy
+1389979465091,log,HExpanded_I
+1389979466371,eye,Class hierarchy
+1389979466771,eye,Description
+1389979468131,log,EntitySelected
+1389979469978,eye,Description
+1389979470106,log,DescriptionSelected
+1389979470244,eye,Description
+1389979473969,log,EntitySelected
+1389979474128,eye,Class hierarchy
+1389979475172,log,DescriptionSelected
+1389979475311,eye,Class hierarchy
+1389979477609,log,EntitySelected
+1389979478946,log,DescriptionSelected
+1389979480194,eye,Class hierarchy
+1389979486744,eye,Class hierarchy
+1389979489103,log,Convert into defined
+1389979492508,log,SaveOntology
+1389979494579,log,ReasonerInvoked
+1389979503450,log,M_hierarchy_I
+1389979531357,log,EntitySelected
+1389979532971,eye,Property hierarchy
+1389979538185,log,M_hierarchy_I
+1389979539071,eye,Class hierarchy
+1389979540603,log,EntitySelected
+1389979541549,eye,Class hierarchy
+1389979542697,log,DescriptionSelected
+1389979661532,log,EntityModified
+1389979662936,log,DescriptionSelected
+1389979666545,log,EntityModified
+1389979670361,log,M_entity_selected
+1389979672323,log,EntitySelected
+1389979674412,eye,Class hierarchy
+1389979674569,log,DescriptionSelected
+1389979674595,eye,Class hierarchy
+1389979690881,log,EntityModified
+1389979692911,eye,Description
+1389979694495,eye,Class hierarchy
+1389979696912,log,EntitySelected
+1389979702032,log,DescriptionSelected
+1389979707572,log,EntityModified
+1389979707806,eye,Description
+1389979708968,log,DescriptionSelected
+1389979712975,log,EntityModified
+1389979713606,eye,Description
+1389979721177,log,DescriptionSelected
+1389979722073,eye,Description
+1389979722706,eye,Class hierarchy
+1389979723473,eye,Annotations-Usage
+1389979723956,eye,Description
+1389979724806,eye,Annotations-Usage
+1389979726546,log,DescriptionSelected
+1389979726607,log,EntityDeleted
+1389979727833,log,DescriptionSelected
+1389979735977,log,M_description_selected
+1389979753929,log,EntityModified
+1389979755237,log,DescriptionSelected
+1389979765112,log,EntitySelected
+1389979766592,log,DescriptionSelected
+1389979787052,log,EntityModified
+1389979787174,eye,Description
+1389979790360,log,EntitySelected
+1389979795682,log,DescriptionSelected
+1389979815448,log,EntityModified
+1389979817116,log,EntitySelected
+1389979818559,log,DescriptionSelected
+1389979840052,log,EntityModified
+1389979852065,log,EntitySelected
+1389979853479,log,DescriptionSelected
+1389979893397,log,EntityModified
+1389979893862,eye,Description
+1389979895446,log,EntitySelected
+1389979899678,eye,Property hierarchy
+1389979901055,log,EntitySelected
+1389979902019,log,DescriptionSelected
+1389979905059,log,DescriptionSelected
+1389979907692,log,EntitySelected
+1389979908982,log,DescriptionSelected
+1389979944121,log,EntityModified
+1389979948554,log,SaveOntology
+1389979951449,log,EntitySelected
+1389979953690,eye,Description
+1389979960480,log,EntitySelected
+1389979961762,log,DescriptionSelected
+1389979964413,log,EntitySelected
+1389979965815,log,DescriptionSelected
+1389979974898,log,EntityModified
+1389979978570,eye,Description
+1389979978854,eye,Property hierarchy
+1389979980358,log,EntitySelected
+1389979981441,log,DescriptionSelected
+1389979982931,eye,Property hierarchy
+1389979986032,log,EntitySelected
+1389979986945,log,EntitySelected
+1389979992286,log,DescriptionSelected
+1389979996450,log,EntityModified
+1389980003700,eye,Description
+1389980005301,eye,Class hierarchy
+1389980007452,eye,Description
+1389980008289,eye,Class hierarchy
+1389980010947,log,EntitySelected
+1389980011706,log,DescriptionSelected
+1389980013894,log,EntitySelected
+1389980015805,log,DescriptionSelected
+1389980030292,log,EntityModified
+1389980031824,log,EntitySelected
+1389980035325,eye,Property hierarchy
+1389980037912,log,EntitySelected
+1389980038591,log,DescriptionSelected
+1389980040957,log,EntitySelected
+1389980043934,log,DescriptionSelected
+1389980051492,log,EntityModified
+1389980052462,eye,Property hierarchy
+1389980052761,eye,Description
+1389980053478,eye,Property hierarchy
+1389980058392,eye,Description
+1389980060061,log,EntitySelected
+1389980061170,log,DescriptionSelected
+1389980065391,log,M_entity_selected
+1389980067086,log,DescriptionSelected
+1389980095536,log,EntityModified
+1389980095700,eye,Description
+1389980096955,eye,Class hierarchy
+1389980100235,log,EntityEdited:finished
+1389980108043,eye,Class hierarchy
+1389980108775,log,SaveOntology
+1389980108827,eye,Description
+1389980110048,log,EntitySelected
+1389980110895,eye,Property hierarchy
+1389980111312,eye,Description
+1389980115655,log,EntitySelected
+1389980115677,eye,Class hierarchy
+1389980116895,log,DescriptionSelected
+1389980122101,log,EntitySelected
+1389980123246,log,DescriptionSelected
+1389980135490,log,EntityModified
+1389980141945,eye,Class hierarchy
+1389980153092,log,EntitySelected
+1389980153719,eye,Popup
+1389980155517,eye,Class hierarchy
+1389980155900,eye,Popup
+1389980157917,eye,Class hierarchy
+1389980164652,log,ClassAddition
+1389980166645,log,DescriptionSelected
+1389980179323,eye,Class hierarchy
+1389980186269,log,Convert into defined
+1389980189339,eye,Class hierarchy
+1389980191215,log,SaveOntology
+1389980196110,log,M_entity_selected
+1389980214323,eye,Class hierarchy
+1389980224077,eye,Popup
+1389980226386,eye,Description
+1389980226720,eye,Popup
+1389980227136,eye,Description
+1389980227636,eye,Class hierarchy
+1389980229086,eye,Description
+1389980235818,log,EntitySelected
+1389980239286,log,DescriptionSelected
+1389980245032,eye,Class hierarchy
+1389980245196,log,Convert into defined
+1389980245382,eye,Class hierarchy
+1389980250258,eye,Popup
+1389980251724,eye,Property hierarchy
+1389980255574,eye,Description
+1389980260177,log,EntitySelected
+1389980263801,eye,Description
+1389980265246,log,DescriptionSelected
+1389980266001,eye,Description
+1389980271038,log,Convert into defined
+1389980271267,eye,Class hierarchy
+1389980272734,log,Convert into defined
+1389980273217,eye,Description
+1389980278261,log,DescriptionSelected
+1389980278268,log,EntityDeleted
+1389980283597,log,M_entity_selected
+1389980285846,eye,Class hierarchy
+1389980290709,eye,Popup
+1389980293127,eye,Class hierarchy
+1389980295194,eye,Popup
+1389980297227,eye,Class hierarchy
+1389980297394,eye,Description
+1389980304479,log,EntitySelected
+1389980307070,log,DescriptionSelected
+1389980307918,eye,Description
+1389980311601,eye,Description
+1389980314668,eye,Class hierarchy
+1389980315155,log,Convert into defined
+1389980315234,eye,Description
+1389980316185,eye,Class hierarchy
+1389980320235,eye,Description
+1389980320884,eye,File menu
+1389980321735,eye,Annotations-Usage
+1389980322052,eye,Description
+1389980323019,eye,Class hierarchy
+1389980323344,log,DescriptionSelected
+1389980323430,log,EntityDeleted
+1389980327058,log,SaveOntology
+1389980328890,eye,Class hierarchy
+1389980341820,eye,Description
+1389980343814,eye,Popup
+1389980344064,eye,Class hierarchy
+1389980345263,eye,Description
+1389980351570,log,EntitySelected
+1389980355829,log,M_description_selected
+1389980359785,eye,Description
+1389980360352,eye,Class hierarchy
+1389980361157,log,Convert into defined
+1389980364841,eye,Popup
+1389980370033,eye,Class hierarchy
+1389980376651,log,EntitySelected
+1389980378383,eye,Popup
+1389980379066,eye,Description
+1389980380266,eye,Popup
+1389980380516,eye,Description
+1389980386244,eye,Class hierarchy
+1389980387935,log,EntitySelected
+1389980389580,log,DescriptionSelected
+1389980391811,eye,Property hierarchy
+1389980393728,log,Convert into defined
+1389980398417,log,SaveOntology
+1389980401527,log,ReasonerInvoked
+1389980409878,eye,Class hierarchy
+1389980414372,log,EntitySelected_I
+1389980416261,eye,Class hierarchy
+1389980417045,eye,Property hierarchy
+1389980417515,log,EntitySelected_I
+1389980425678,log,EntityDeleted
+1389980433686,log,ReasonerInvoked
+1389980438129,log,M_hierarchy_I
+1389980451636,log,M_entity_selected_I
+1389980454613,log,M_hierarchy_I
+1389980458123,eye,Class hierarchy
+1389980459780,log,EntitySelected_I
+1389980465484,log,EntitySelected
+1389980471450,eye,Popup
+1389980480097,eye,Class hierarchy
+1389980481797,eye,Popup
+1389980482097,eye,Class hierarchy
+1389980484547,eye,Description
+1389980490803,log,ClassAddition
+1389980493195,log,DescriptionSelected
+1389980498184,eye,Class hierarchy
+1389980500084,eye,Property hierarchy
+1389980501301,eye,Property hierarchy
+1389980501401,eye,Class hierarchy
+1389980510101,eye,Property hierarchy
+1389980517149,eye,Class hierarchy
+1389980522240,eye,Description
+1389980522590,eye,Class hierarchy
+1389980530694,log,Convert into defined
+1389980547620,eye,Class hierarchy
+1389980552780,log,HExpanded
+1389980554116,log,M_entity_selected
+1389980559727,eye,Class hierarchy
+1389980566743,eye,Popup
+1389980567327,eye,Description
+1389980567627,eye,Popup
+1389980567893,eye,Description
+1389980568310,eye,Popup
+1389980568877,eye,Class hierarchy
+1389980576514,log,ClassAddition
+1389980578827,log,DescriptionSelected
+1389980586437,eye,Class hierarchy
+1389980593671,log,Convert into defined
+1389980598109,log,SaveOntology
+1389980600520,log,ReasonerInvoked
+1389980605762,log,EntitySelected
+1389980611587,eye,Description
+1389980611771,eye,Class hierarchy
+1389980611989,log,HExpanded_I
+1389980612471,eye,Class hierarchy

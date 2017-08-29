@@ -1,0 +1,24 @@
+{
+  "name": "third-year-project",
+  "version": "1.0.0",
+  "description": "Data Visualisation Tool",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad-Florin Nicut",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "jsonfile": "^2.4.0",
+    "markovchain": "^1.0.2",
+    "mongoose": "^4.9.1",
+    "multer": "^1.3.0",
+    "mustache-express": "^1.2.4",
+    "mv": "^2.1.1",
+    "node-uuid": "^1.4.7"
+  }
+}
